@@ -7,7 +7,7 @@ import joblib
 # LOAD SAVED MODEL
 # ==============================
 
-model_package = joblib.load(r"C:\Users\hp\Desktop\Diabetes_prediction_streamlit\diabetes_model.pkl")
+model_package = joblib.load(r"diabetes_model.pkl")
 
 model = model_package["model"]
 numeric = model_package["numeric_columns"]
